@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
   StyleSheet,
   View,
@@ -6,7 +6,6 @@ import {
   Button,
   Text
 } from 'react-native';
-
 import Logo from '../../assets/logo.png';
 
 import { signIn } from '@okta/okta-react-native';
@@ -21,7 +20,7 @@ export default Login = () => {
       </View>
     </View>
   )
-}
+};
 
 const styles = StyleSheet.create({
   body: {
